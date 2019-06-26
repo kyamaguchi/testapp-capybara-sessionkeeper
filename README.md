@@ -1,24 +1,13 @@
-# README
+# Test app for testing of capybara-sessionkeeper
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Test app for [capybara-sessionkeeper](https://github.com/kyamaguchi/capybara-sessionkeeper)
 
-Things you may want to cover:
+This app is deployed on heroku
+https://testapp-capybara-sessionkeeper.herokuapp.com/
 
-* Ruby version
+## Usage
 
-* System dependencies
+Visit the app with params 'test'
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Example:
+https://testapp-capybara-sessionkeeper.herokuapp.com/?test=abc
