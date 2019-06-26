@@ -1,2 +1,5 @@
-<h1>Test#show</h1>
-<p>Find me in app/views/test/show.html.erb</p>
+<% if session[:test].present? %>
+  <%= "Session: #{session[:test]}" %>
+<% else %>
+  <%= "No Session" %>
+<% end %>
